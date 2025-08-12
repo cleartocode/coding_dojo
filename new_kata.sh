@@ -17,7 +17,6 @@ case "$LANG" in
     DEST="$ROOT_DIR/python/$NAME"
     [ -e "$DEST" ] && { echo "Ya existe: $DEST"; exit 1; }
     mkdir -p "$DEST"
-    cp "$ROOT_DIR/python/template.py" "$DEST/$NAME.py"
     cp "$ROOT_DIR/python/template.py" "$DEST/test_${NAME}.py"
     echo "✅ Python en: $DEST"
     echo "   cd \"$DEST\" && pytest -q"

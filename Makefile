@@ -5,7 +5,7 @@
 
 test:
 ifeq ($(LANG),python)
-	@cd python/$(NAME) && pytest -q
+	@cd python/$(NAME) && pytest -vv
 else ifeq ($(LANG),cpp)
 	@cd cpp/$(NAME) && g++ -std=c++20 -O2 $(NAME).cpp -o $(NAME) && ./$(NAME)
 else ifeq ($(LANG),rust)
