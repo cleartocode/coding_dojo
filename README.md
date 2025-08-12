@@ -1,6 +1,6 @@
 # Coding Dojo 🥋
 
-Repositorio personal para practicar **fluidez de programación** en Python, C++ y Rust.  
+Repositorio personal para practicar **fluidez de programación** en Python, C, C++ y Rust.  
 Objetivo: mejorar la velocidad y precisión al pasar de la idea → pseudocódigo → código.
 
 ## 📂 Estructura
