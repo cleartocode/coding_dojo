@@ -4,7 +4,7 @@ def solve(pairs: list[tuple[str, int]], k: int) -> list[tuple[str, int]]:
     """
     SPEC:
     - Entradas: una lista de pares [("a", 10), ("b", 2), ("c", 5), ("d", 20)]
-    - Salidas: una lista de pares  con los k elementos con mayor valor, ordenados por valor.
+    - Salidas: una lista de pares  con los k elementos con mayor valor, ordenados descendente.
     - Reglas/empates: si hay empate, se ordenan alfabéticamente por la clave.
     - Edge cases: si k es mayor que la cantidad de elementos, se devuelven todos los elementos.
     - Complejidad: O(n log n) o mejor.
@@ -15,7 +15,7 @@ def solve(pairs: list[tuple[str, int]], k: int) -> list[tuple[str, int]]:
     3. Tomar los primeros k elementos.
     4. Devolverlos como una lista de tuplas.
     """
-    # Ordenar por valor (segundo elemento) y luego por clave (primer elemento) y retornar los primeros k elementos
+    # Ordenar por valor (segundo elemento) descendente y luego por clave (primer elemento) ascendente y retornar los primeros k elementos
     return sorted(pairs, key=lambda x: (-x[1], x[0]))[:k]
     
 
