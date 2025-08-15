@@ -36,7 +36,7 @@ PairArray solve(const PairArray input, int k) {
     memcpy(output.data, input_copy.data, m * sizeof(Pair));
 
     free(input_copy.data);
-    
+
     return output;
 }
 
@@ -54,7 +54,6 @@ static int arrays_equal(const Pair *a, size_t na, const Pair *b, size_t nb) {
     return 1;
 }
 
-// --- mini harness ---
 typedef struct {
     const Pair *items; 
     size_t n; 
