@@ -40,6 +40,22 @@ g++ (C++20)
 Rust + Cargo
 ```
 
+## 📝 Checklist rápido antes del kata
+1. Leer y entender la consigna (~2 min)
+  - Identificar entradas, salidas y reglas.
+  - Escribir Tests, al menos 2 edge cases.
+2. Esbozar la lógica (~5 min)
+  - Escribir en Pseudocódigo simple, documentar complejidad (O(n), O(n log n), etc)
+  - Elegir el enfoque más rápido de implementar (no optimizar de más).
+3. Implementar (~10–15 min)
+  - Código en un solo archivo.
+  - Variables y funciones con nombres claros.
+4. Probar y ajustar (~5–8 min)
+  - Correr los Test Cases dados.   
+  - Depurar si algo falla.
+5. Cierre 
+  - Subirlo a ChatGPT para análisis.
+
 ## 📅 Plan de práctica
 Intercalado semanal: Lunes (Python), Martes (C++), Miércoles (Rust), Jueves (Python), Viernes (C++).
 
